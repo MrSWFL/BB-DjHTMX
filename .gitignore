@@ -1,0 +1,35 @@
+# --------------- MLR's .gitignore ------------------------
+# 5/22/24
+#
+.env
+.venv
+.venv*
+.venv_*/
+#.vscode/
+.virt/
+venv
+venv*
+
+# From "Django for Professionals 3.0" p.161
+# If you have any environment variables containing secret strings, don't save.
+# docker-compose.yml
+
+# My scratch and private folders. Not added to the repo.
+SCRATCH
+PRIVATE
+RESOURCES
+#-- Deprecated -----------
+aaJunk
+zzJunk
+
+# -- Data files -------
+*.xlsx
+*.xls
+data/
+input/
+output/
+
+.venv
+__pycache__/
+db.sqlite3
+.DS_Store  # Mac only
